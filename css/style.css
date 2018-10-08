@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1110px;
+    height: auto;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.section{
+    margin-top: 200px;
+    background-color: #ffffff;
+}
+/* heroSection starts */
+.heroSection{
+    width: 1600px;
+    height: 745px;
+    background-image: url(../img/1back.png) ;
+}
+.logo{
+    width: 65px;
+    height: 100px;
+    float: left;
+}
+.link h1{
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+.link p{
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #82f4d3;
+    line-height: 55px;
+    margin-left: 100px;
+}
+.social{
+    width: 180px;
+    margin: 0 auto;
+    position: absolute;
+    right: 5px;
+}
+.social a{
+    height: 55px;
+    width: 55px;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    line-height: 55px;
+    margin-left: 0;
+    box-sizing: border-box;
+ }
+.social a:hover{
+    color: #82f4d3;
+    background: #ffffff;
+    transition-duration: 0.4s;
+ }
+.social a:last-child{
+     margin-right:0px;
+ }
+/* heroSection ends */
+/* section starts */
+ .shoseImg{
+     width: 50%;
+     float: left;
+     height: auto;
+    /* padding-left:70px;*/
+ }
+ .textDesc{
+     float: right;
+     width:50%;
+     height: auto;
+     margin-top: 100px;
+     box-sizing: border-box;
+ }
+.content{
+    color: #000000;
+}
+.content p{
+    width: 440px;
+    font-size: 12px;
+}
+.content a{
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #82f4d3;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    margin-top:20px; 
+    box-sizing: border-box;
+    float: right;
+}
+/* section ends */
+
+/* popular starts */
+.box{
+    width: 25%;
+    float: left;
+}
+.box img{
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.box span , .box h3{
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.box h3 , .box shopSpan{
+    color: #d3d3d3;
+}
+.box img:hover{
+    background-color: rgba(130,244,211,0.5);
+}
+/* popular ends */
+
+/* section starts */
+ .pic{
+     width: 50%;
+     float: right;
+     height: auto;
+ }
+ .details{
+     float: left;
+     width:50%;
+     height: auto;
+     margin-top: 100px;
+     box-sizing: border-box;
+ }
+.content{
+    color: #000000;
+}
+.content p{
+    width: 440px;
+    font-size: 12px;
+}
+.content a.more{
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #82f4d3;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    margin-top:20px; 
+    box-sizing: border-box;
+    float: left;
+}
+/* section ends */
+
+/* section ends */
+.thoughtSection{
+    background-color: #f8f8f8;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    padding: 50px 0px;
+}
+.text h5{
+    color: #82f4d3;
+    margin-top: 0;
+}
+/* section ends */
+.footer{
+    margin-top: 50px;
+    border-bottom-color: #929292;
+    border-top-color: #929292;
+}
+.leftMenu , .rightMenu{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.leftMenu ul , .rightMenu ul{
+    padding:0px;
+}
+.leftMenu ul li , .rightMenu ul li{
+    list-style-type: none;
+}
+.leftMenu ul li:first-child , .rightMenu ul li:first-child{
+    margin-left:0px;
+}
+.leftMenu ul li a , .rightMenu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #929292;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.logo , .rightMenu , .leftMenu , .signUpFrame{
+    float: left;
+}
+.leftMenu{
+    margin-left: 200px;
+}
+.signUpFrame{
+    margin-top: 10px;
+}
+input[type=email]{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+input[type=submit]{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #82f4d3;
+}
+.socialmedia{
+    margin-top: 20px;
+}
+.socialmedia a{
+    color: #929292;
+    margin-right: 30px;
+}
+.socialmedia a:hover{
+    color: #82f4d3;
+}
