@@ -1,6 +1,7 @@
 # nike
 
+Demo Link :
 https://alhajahmeddina.github.io/nike/index.php
 
-PSD Source :
+Source of PSD File link :
 https://victorthemes.com/freebies/ecommerce-website-template/
